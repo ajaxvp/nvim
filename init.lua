@@ -20,6 +20,7 @@ vim.o.expandtab = true
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.autoread = true
+vim.o.clipboard = "unnamedplus"
 
 vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" }, {
     pattern = "*",
